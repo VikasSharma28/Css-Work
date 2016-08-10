@@ -5,100 +5,99 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Vikas</title>
 		<style>
-
-.rocket {
-    height: 100px;
-    width: 56px;
-    background: #24c0f2;
-    background: -moz-linear-gradient(-45deg, #24c0f2 0%, #00a2e5 100%);
-    background: -webkit-linear-gradient(-45deg, #24c0f2 0%, #00a2e5 100%);
-    background: linear-gradient(135deg, #24c0f2 0%, #00a2e5 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#24c0f2', endColorstr='#00a2e5', GradientType=1);
-    position: relative;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 17px;
-    margin: 0 auto;
-    margin-top: 20%;
-    box-shadow: 0px 9px 0px -2px #4998B5, -30px 0 0px -25px rgb(48, 138, 171), 30px 0 0px -25px rgb(48, 138, 171);
-    -webkit-animation-name: example;   
-    -webkit-animation-duration: 4s;    
-    -webkit-animation-iteration-count: infinite;    
-    animation-name: rocket;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-}
-.rocket:before {
-    width: 0;
-    height: 0;
-    border-left: 32px solid transparent;
-    border-right: 31px solid transparent;
-    content: "";
-    border-bottom: 48px solid yellow;
-    position: absolute;
-    top: -30px;
-    left: -3px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-   
-}
-.rocket:after {
-    width: 0;
-    height: 0;
-    border-left: 38px solid transparent;
-    border-right: 0 solid transparent;
-    content: "";
-    border-top: 40px solid #FFCC00;
-    position: absolute;
-    top: 100px;
-    left: 16px;
-    border-bottom-left-radius: 80px;
-    border-bottom-right-radius: 70px;
-    box-shadow: -10px -16px 0px 5px #FFC700;
-    z-index: -6;
-}
-
-
-
-.rocket span {
-    background: #FFFCFC;
-    height: 20px;
-    width: 25px;
-    position: relative;
-    top: 40px;
-    left: 14px;
-    z-index: 999;
-    display: block;
-    border-radius: 50%;
-    text-align:center;
-     border: solid 3px #308AAB;
-}
-
-@-webkit-keyframes rocket {
-    0% {
-        background-color: red;
-        left: 0px;
-        top: 0px;
+    .rocket{
+      height: 100px;
+      width: 56px;
+      background: #24c0f2;
+      background: -webkit-linear-gradient(bottom left, #24c0f2 0%, #00a2e5 100%);
+      background: -o-linear-gradient(bottom left, #24c0f2 0%, #00a2e5 100%);
+      background: linear-gradient(to top right, #24c0f2 0%, #00a2e5 100%);
+      filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#24c0f2', endColorstr='#00a2e5', GradientType=1);
+      position: relative;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 17px;
+      margin: 0 auto;
+      margin-top: 20%;
+      box-shadow: 0px 9px 0px -2px #4998B5, -30px 0 0px -25px rgb(48, 138, 171), 30px 0 0px -25px rgb(48, 138, 171);
+      -webkit-animation-name: example;   
+      -webkit-animation-duration: 4s;    
+      -webkit-animation-iteration-count: infinite;    
+      animation-name: rocket;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
     }
-    100% {
-        background-color: red;
-        left: 0px;
-        top: -220px;
-    }
-}
+        .rocket:before {
+            width: 0;
+            height: 0;
+            border-left: 32px solid transparent;
+            border-right: 31px solid transparent;
+            content: "";
+            border-bottom: 48px solid yellow;
+            position: absolute;
+            top: -30px;
+            left: -3px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+           
+        }
+        .rocket:after {
+            width: 0;
+            height: 0;
+            border-left: 38px solid transparent;
+            border-right: 0 solid transparent;
+            content: "";
+            border-top: 40px solid #FFCC00;
+            position: absolute;
+            top: 100px;
+            left: 16px;
+            border-bottom-left-radius: 80px;
+            border-bottom-right-radius: 70px;
+            box-shadow: -10px -16px 0px 5px #FFC700;
+            z-index: -6;
+        }
 
 
-@keyframes rocket {
-    0% {
-        background-color: red;
-        left: 0px;
-        top: 0px;
-    }
-    100% {
-        background-color: red;
-        left: 0px;
-        top: -220px;
-    }
-}
+
+        .rocket span {
+            background: #FFFCFC;
+            height: 20px;
+            width: 25px;
+            position: relative;
+            top: 40px;
+            left: 14px;
+            z-index: 999;
+            display: block;
+            border-radius: 50%;
+            text-align:center;
+             border: solid 3px #308AAB;
+        }
+
+        @-webkit-keyframes rocket {
+            0% {
+                background-color: red;
+                left: 0px;
+                top: 0px;
+            }
+            100% {
+                background-color: red;
+                left: 0px;
+                top: -220px;
+            }
+        }
+
+
+        @keyframes rocket {
+            0% {
+                background-color: red;
+                left: 0px;
+                top: 0px;
+            }
+            100% {
+                background-color: red;
+                left: 0px;
+                top: -220px;
+            }
+        }
 </style>
 	</head>
 	<body>
